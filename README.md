@@ -13,6 +13,10 @@ package focuses on the National Time Use Survey conducted by the
 National Institute of Statistics of Chile, but it can also be applied to
 related statistical products following a similar design.
 
+# ¡Importante!
+Esta es una versión de lectura del paquete `enuttools`. El paquete está siendo desarrollado actualmente en un servidor Gitlab institucional. 
+En un futuro próximo el paquete será importado oficialmente a Github y trabajado en esta plataforma.
+
 ## Installation
 
 You can install the development version of enuttools like so:
