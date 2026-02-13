@@ -1,17 +1,28 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # enuttools
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
-The goal of enuttools is to provides functions for processing and
-analyzing time use surveys based on a stylized questionnaire. The
-package focuses on the National Time Use Survey conducted by the
-National Institute of Statistics of Chile, but it can also be applied to
-related statistical products following a similar design.
+The goal of enuttools is to provides functions for processing and analyzing time use
+surveys based on a stylized questionnaire.  The package focuses on the
+National Time Use Survey conducted by the National Institute of
+Statistics of Chile, but it can also be applied to related statistical
+products following a similar design.
 
 ## Installation
 
@@ -25,11 +36,11 @@ devtools::install_gitlab("mvenegasm/enuttools", host = "https://git.ine.gob.cl")
 
 This is a package in development.
 
-Next to-do’s:
+Next to-do's:
 
 - [ ] Refactor first level validation functions
 - [ ] Update tests for first level validation functions
-- [ ] Implement tests for second level validation functions
+- [ ] Implement tests for second level validation functions 
 - [ ] Refactor second level validation functions
 - [ ] Implement tests for sufficency and quality functions
 - [ ] Implement tests for time and participacion calculation functions
